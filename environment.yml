@@ -1,0 +1,16 @@
+name: forte_benchmarking
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - notebook
+  - jupytext
+  - ipywidgets
+  - jinja2=3.0
+  - nb_conda_kernels
+  - pip:
+    - pygsti
